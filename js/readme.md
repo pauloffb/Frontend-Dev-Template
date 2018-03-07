@@ -1,0 +1,1 @@
+Javascript files used by the project go in this folder

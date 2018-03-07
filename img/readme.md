@@ -1,0 +1,1 @@
+Here go images. Can have subfolders so they're better organized

@@ -1,0 +1,1 @@
+Stylesheets that take part in the laying out of the project. It can have different stylesheets for header, footer, the grid, etc.

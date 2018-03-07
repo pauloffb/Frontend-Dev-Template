@@ -1,0 +1,1 @@
+Base styles like some typographic rules, standard rules used across the project
