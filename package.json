@@ -1,0 +1,10 @@
+{
+  "name": "frontend_workflow",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Paulo Baptista",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
