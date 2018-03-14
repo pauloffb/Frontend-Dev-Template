@@ -1,13 +1,5 @@
-h1 
-  font-size: 95px;
-
-
-
-
-// Import google fonts
-// @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900')
-
-
+h1 {
+  font-size: 95px; }
 
 /**
  * 1. abstracts
@@ -18,8 +10,8 @@ h1
  * @import abstracts/type
  * @import abstracts/variables
  */
-@import abstracts/color
-
+h1 {
+  color: red; }
 
 /**
  * 2. vendor
@@ -28,9 +20,6 @@ h1
  * Examples:
  * @import vendor/normalize
  */
-
-
-
 /**
  * 3. base
  * Base styles like some typographic rules, standard rules used across the project
@@ -39,10 +28,7 @@ h1
  * @import base/base
  * @import base/typography
  */
-
-
-
- /**
+/**
  * 4. layout
  * Stylesheets that take part in the laying out of the project
  * It can have different stylesheets for header, footer, the grid, etc.
@@ -54,10 +40,7 @@ h1
  * @import layout/hero
  * @import layout/footer
  */
-
-
-
-  /**
+/**
  * 5. components
  * Stylesheets for small components, widgets, buttons, cta, etc
  *
@@ -65,10 +48,7 @@ h1
  * @import components/buttons
  * @import components/carousel
  */
-
-
-
-   /**
+/**
  * 6. pages
  * Page specific styles for different pages across the project
  *
