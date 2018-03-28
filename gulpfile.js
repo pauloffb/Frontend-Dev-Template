@@ -6,7 +6,7 @@ const plumber = require('gulp-plumber');
 // Compile Sass && Inject into browser
 gulp.task('sass', () => {
   return gulp.src([
-    'src/sass/*.sass'
+    'src/sass/**/*.scss'
   ])
   .pipe(plumber()) // Handle errors
   .pipe(sass({errLogToConsole: true}))
@@ -31,7 +31,7 @@ gulp.task('serve', ['sass'], () => {
       server: './'
   });
 
-  gulp.watch(['src/sass/*.sass'],['sass']); // Watch all sass files
+  gulp.watch(['src/sass/**/*.scss'],['sass']); // Watch all sass files
   gulp.watch('*.html').on('change', browserSync.reload); // Watch all html files.
 })
 

@@ -1,7 +1,6 @@
-h1 
-  font-size: 95px;
-
-
+h1 {
+  font-size: 15px;
+}
 
 
 // Import google fonts
@@ -18,7 +17,7 @@ h1
  * @import abstracts/type
  * @import abstracts/variables
  */
-@import abstracts/color
+@import "abstracts/color";
 
 
 /**
