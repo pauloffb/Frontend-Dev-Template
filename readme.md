@@ -5,3 +5,4 @@
 - [ ] - Write documentation and add rep description
 - [ ] - Better gulp-sass error handling
 - [ ] - Autoprefixer
+- [ ] - Convert sass to scss
