@@ -10,10 +10,16 @@ gulp.task('sass', () => {
   ])
   .pipe(plumber()) // Handle errors
   .pipe(sass({errLogToConsole: true}))
+  .on('error', catchErr) // Catch the error
   .pipe(sass()) // Compile
   .pipe(gulp.dest('css')) // Send CSS archives for this directory
   .pipe(browserSync.stream()); // Open browser with browser-sync
 });
+
+function catchErr(e) {
+  console.log(e.formatted);
+  this.emit('end');
+}
 
 // Move JS Files to js
 // TODO: Minify JS
